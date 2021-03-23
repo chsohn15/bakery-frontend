@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Bakery from './Bakery.js'
+import Bakery from './Bakery.js';
+
 function BakeryDisplay(){
     const [bakeries, setBakeries] = useState([]);
     

@@ -1,5 +1,5 @@
 import React from 'react';
-import BakeryDisplay from './BakeryDisplay.js'
+import BakeryDisplay from './BakeryDisplay.js';
 
 function Home(){
     return(
