@@ -6,8 +6,19 @@ function App() {
   return (
     <div className="App">
       <Home />
+      <Router>
+        <Route
+              exact
+              path="/desserts"
+              render={(routerProps) => (
+                <CupcakesDisplay {...routerProps} />
+              )}
+            />
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+//https://learnwithparam.com/blog/dynamic-pages-in-react-router/
