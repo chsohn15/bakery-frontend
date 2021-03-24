@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './components/Home.js';
+import CupcakesDisplay from './components/CupcakesDisplay.js';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 function App() {
