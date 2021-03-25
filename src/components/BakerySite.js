@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function CupcakesDisplay(props){
+function BakerySite(props){
     
     useEffect( () => {
         console.log(props)
@@ -8,9 +8,9 @@ function CupcakesDisplay(props){
 
     return(
         <div>
-           Display cupcakes here
+           This is one bakery's site
         </div>
     )
 }
 
-export default CupcakesDisplay; 
+export default BakerySite; 
