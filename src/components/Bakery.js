@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 function Bakery(props){
     
-    let {id, name, location, desserts} = props.bakery
+    const {id, name, location} = props.bakery
 
     return(
         <div>
-            <NavLink to={{pathname: `/${id}/`}}>{name}</NavLink>
+            <NavLink to={{pathname: `/${id}/`, bakery: props.bakery}}>{name}</NavLink>
            <div>{location}</div>
         </div>
     )

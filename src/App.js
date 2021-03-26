@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home.js';
-import BakerySite from './components/BakerySite.js';
+import BakerySite from './components/BakerySite/BakerySite.js';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 function App() {
