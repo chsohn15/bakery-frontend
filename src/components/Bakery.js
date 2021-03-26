@@ -1,16 +1,13 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 function Bakery(props){
     
-    let {name, location, desserts} = props.bakery
-
-    let handleClick = ()=> {
-        console.log(desserts)
-    }
+    const {id, name, location} = props.bakery
 
     return(
         <div>
-           <h3 onClick={handleClick}>{name}</h3>
+            <NavLink to={{pathname: `/${id}/`, bakery: props.bakery}}>{name}</NavLink>
            <div>{location}</div>
         </div>
     )
