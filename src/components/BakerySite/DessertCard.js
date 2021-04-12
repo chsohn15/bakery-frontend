@@ -6,11 +6,13 @@ function DessertCard(props){
         console.log("Here is a dessert: ", props.dessert)
     })
 
-    const dessert = props.dessert
+    const {image_url, name, price, variety} = props.dessert
 
     return(
         <div>
-           One Dessert 
+           <img src={image_url}  />
+           <div>{name}</div>
+           <div>{price} </div>
         </div>
     )
 }
