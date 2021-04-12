@@ -10,7 +10,7 @@ function DessertCard(props){
 
     return(
         <div>
-           <img src={image_url}  />
+           <img src={image_url} style={{width:"200px"}} />
            <div>{name}</div>
            <div>{price} </div>
         </div>
