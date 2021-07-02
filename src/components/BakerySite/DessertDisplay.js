@@ -5,7 +5,7 @@ function DessertDisplay(props){
     const desserts = props.desserts
 
     return(
-        <div>
+        <div className = "card-display">
             {desserts.map(dessert => <DessertCard dessert={dessert}/>)}
         </div>
     )

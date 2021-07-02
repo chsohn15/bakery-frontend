@@ -11,7 +11,7 @@ function BakerySite({match, location}){
       //});
 
     return(
-        <div>
+        <div className="page bakery__page">
            This is one bakery's info page
            <BakeryName bakery={location.bakery}/>
            <DessertDisplay desserts={desserts}/>
