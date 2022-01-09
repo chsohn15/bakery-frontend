@@ -9,10 +9,12 @@ function DessertCard(props){
     const {image_url, name, price, variety} = props.dessert
 
     return(
-        <div className="card__dessert">
-           <img src={image_url} />
-           <div>{name}</div>
-           <div>{price} </div>
+        <div className="card__dessert" >
+            <div className="container" >
+                <img src={image_url} />
+                <div>{name}</div>
+                <div>{price} </div>
+           </div>
         </div>
     )
 }

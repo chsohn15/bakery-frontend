@@ -13,20 +13,25 @@ code {
 }
 
 .card-display {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   flex-grow: 1;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .card__dessert {
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 350px;
   margin-bottom: 50px;
 }
 
+.card__dessert .container {
+  border: 1px solid gray;
+}
+
 .card__dessert img {
-  height: 100%; 
-  width: 100%; 
+  object-fit: cover;
+  height: 300px; 
+  width: 298px; 
 }
