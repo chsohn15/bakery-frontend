@@ -14,6 +14,7 @@ function DessertCard(props){
                 <img src={image_url} />
                 <div>{name}</div>
                 <div>{price} </div>
+                <button>-</button><button>+</button>
            </div>
         </div>
     )
